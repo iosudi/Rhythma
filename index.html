@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Linking the custom font 'Supreme' from Fontshare -->
+  <link href="https://api.fontshare.com/v2/css?f[]=supreme@800,400,200,100,300,500,700&display=swap" rel="stylesheet" />
+  <!-- Linking Font Awesome 6 CSS for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Shortcut icon for the tab -->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <!-- Custom CSS file -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Rhythma</title>
+</head>
+<body>
+  <!-- Background image container -->
+  <div class="background">
+    <img src="" id="bg-img" />
+  </div>
+
+  <!-- Main content wrapper -->
+  <div class="wrapper">
+    <!-- Music cover container -->
+    <div class="cover">
+      <img src="1.jpg" class="poster">
+    </div>
+
+    <!-- Music information -->
+    <h2 id="music-title"></h2>
+    <h3 id="music-artist"></h3>
+
+    <!-- Music progress bar -->
+    <div class="player-progress" id="player-progress">
+      <!-- Progress bar -->
+      <div class="progress" id="progress"></div>
+      <!-- Music duration display -->
+      <div class="music-duration">
+        <span id="current-time">0:00</span>
+        <span id="duration">0:00</span>
+      </div>
+    </div>
+
+    <!-- Music player controls -->
+    <div class="player-controls">
+      <i class="fa-solid fa-backward" title="Previous" id="prev"></i>
+      <i class="fa-solid fa-play play-button" title="Play" id="play"></i>
+      <i class="fa-solid fa-forward" title="Next" id="next"></i>
+    </div>
+  </div>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <!-- Custom JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
