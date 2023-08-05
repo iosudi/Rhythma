@@ -81,6 +81,7 @@ h3 {
   width: 100%;
   opacity: 1;
   box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+  transition: .5s;
 }
 
 .cover:hover img {
