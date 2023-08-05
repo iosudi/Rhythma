@@ -55,6 +55,13 @@ const songs = [
     background: "6.jpg",
     artist: "DJ Snake ft. Justin Bieber",
   },
+   {
+    path: "7.mp3",
+    displayName: "Never Gonna Give You Up",
+    cover: "7.jpg",
+    background: "bg7.png",
+    artist: "Rick Astley"
+  }
 ];
 
 let musicIndex = 0;
